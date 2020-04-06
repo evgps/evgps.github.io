@@ -1,0 +1,61 @@
+{
+  "name": "evgps.github.io",
+  "version": "3.3.0",
+  "description": "Evgeny Ponomarev, Deep Learning Researcher",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy":  "gatsby build && gh-pages -d public -b master"
+
+  },
+  "author": {
+    "name": "Evgeny Ponomarev",
+    "email": "evgenii.ponomarev@skoltech.ru",
+    "url": "https://evgps.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgps/evgps.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evgps/evgps.github.io/issues"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-layout": "^1.1.22",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-smoothscroll": "^1.0.4",
+    "gatsby-plugin-transition-link": "^1.17.7",
+    "gatsby-remark-copy-linked-files": "^2.1.37",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-source-instagram": "^0.6.1",
+    "gatsby-transformer-remark": "^2.6.53",
+    "gatsby-transformer-sharp": "^2.3.16",
+    "gsap": "^3.2.2",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "rellax": "^1.12.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1"
+  },
+  "homepage": "http://evgps.github.io"
+}
