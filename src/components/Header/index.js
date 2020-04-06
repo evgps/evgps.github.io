@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import TransitionContext from '../../templates/Context';
-
 import './index.scss';
 
 function Header({ pathname }) {
@@ -128,7 +127,7 @@ function Header({ pathname }) {
               </TransitionLink>
             </li>
             <li>
-              <TransitionLink
+            <TransitionLink
                 className="header__link"
                 to="/resume"
                 transitionElement={transitionElement}
@@ -213,7 +212,7 @@ function Header({ pathname }) {
               </TransitionLink>
             </li>
             <li>
-              <TransitionLink
+            <TransitionLink
                 className="header__link"
                 to="/resume"
                 transitionElement={transitionElement}

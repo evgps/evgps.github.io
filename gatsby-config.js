@@ -10,8 +10,8 @@ module.exports = {
         link: 'https://github.com/evgps',
       },
       {
-        title: 'CodePen',
-        link: 'http://codepen.io/evgps',
+        title: 'Telegram',
+        link: 'http://tele.gg/evgps',
       },
       {
         title: 'LinkedIn',
@@ -22,25 +22,26 @@ module.exports = {
       {
         title: 'Latency Modeling',
         description: 'Predict latency of neural network on end device',
-        image: '/ink-volt-link.jpg',
-        video: '/ink-volt-link.mp4',
+        image: '/latency-link.png',
+        video: '/latency-link.mp4',
       },
       {
         title: 'MUSCO',
         description: 'MUlti-Stage COmpression of neural networks',
-        image: '/ink-volt-link.jpg',
-        video: '/ink-volt-link.mp4',
+        image: '/musco-link.png',
+        video: '/musco-link.mp4',
       },
       {
         title: 'Using Reinforcement Learning in the Algorithmic Trading',
         description: 'Use A3C to trade MOEX:RTSI',
-        image: '/ink-volt-link.jpg',
-        video: '/ink-volt-link.mp4',
+        image: '/rl-link.jpg',
+        video: '/rl-link.mp4',
       },
       {
         title: 'YOLACT Video',
         description: 'Running single-stage instance segmentation algorithm on Cityscapes',
-        image: '/ink-volt-link.jpg',
+        image: '/yolact-link.png',
+        video: '/yolact-link.mp4',
       },
 
     ],

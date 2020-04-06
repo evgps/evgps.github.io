@@ -41,18 +41,13 @@ function RLTradePage({ data, path }) {
       video={mastVideo}
       pathname={path}
     >
-      <Content header="Notebooks and planners">
+      <Content header="{Github}">
         <p>
-          Kate Matsudaira's product line of notebooks and planners needed somewhere to grow after her successful
-          Kickstart campaigns. She needed an e-commerce website to sell products  year-round, so a clean and minimal
-          storefront was built on WordPress and WooCommerce. Development focused on components that could be reused as
-          the brand continued to grow.
-        </p>
-        <p>
-          The Ink+Volt website has received recognition from <a
-          href="https://www.cssdesignawards.com/sites/ink-volt/29013/" target="_blank" rel="noopener noreferrer">CSS
-          Design Awards</a> and <a href="https://www.thebestdesigns.com/designs/ink-volt" target="_blank"
-          rel="noopener noreferrer">The Best Designs</a>.
+        Trading with recurrent actor-critic reinforcement learning.
+
+        <a href="https://arxiv.org/abs/2002.11523" target="_blank" rel="noopener noreferrer">Paper</a> and <a href="https://github.com/evgps/a3c_trading" target="_blank"
+          rel="noopener noreferrer">Code</a>.
+          Details will be on that page soon.
         </p>
       </Content>
 

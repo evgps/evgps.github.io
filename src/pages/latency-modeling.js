@@ -5,7 +5,7 @@ import Project from '../templates/Project';
 import Browser from '../components/Browser';
 import Content from '../components/Content';
 
-import mastImage from '../images/projects/latency-modeling/mast.jpg';
+import mastImage from '../images/projects/latency-modeling/mast.png';
 import mastVideo from '../images/projects/latency-modeling/mast.mp4';
 
 function LatencyPage({ data, path }) {

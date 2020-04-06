@@ -5,7 +5,7 @@ import Project from '../templates/Project';
 import Browser from '../components/Browser';
 import Content from '../components/Content';
 
-import mastImage from '../images/projects/yolact-video/mast.jpg';
+import mastImage from '../images/projects/yolact-video/mast.png';
 import mastVideo from '../images/projects/yolact-video/mast.mp4';
 
 function YolactPage({ data, path }) {
@@ -41,18 +41,9 @@ function YolactPage({ data, path }) {
       video={mastVideo}
       pathname={path}
     >
-      <Content header="Notebooks and planners">
+      <Content header="Detect bounding boxes and masks in videostream">
         <p>
-          Kate Matsudaira's product line of notebooks and planners needed somewhere to grow after her successful
-          Kickstart campaigns. She needed an e-commerce website to sell products  year-round, so a clean and minimal
-          storefront was built on WordPress and WooCommerce. Development focused on components that could be reused as
-          the brand continued to grow.
-        </p>
-        <p>
-          The Ink+Volt website has received recognition from <a
-          href="https://www.cssdesignawards.com/sites/ink-volt/29013/" target="_blank" rel="noopener noreferrer">CSS
-          Design Awards</a> and <a href="https://www.thebestdesigns.com/designs/ink-volt" target="_blank"
-          rel="noopener noreferrer">The Best Designs</a>.
+          TO DO
         </p>
       </Content>
 
