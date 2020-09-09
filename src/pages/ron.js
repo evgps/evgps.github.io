@@ -5,10 +5,10 @@ import Project from '../templates/Project';
 import Browser from '../components/Browser';
 import Content from '../components/Content';
 
-import mastImage from '../images/projects/yolact-video/mast.png';
-import mastVideo from '../images/projects/yolact-video/mast.mp4';
+import mastImage from '../images/projects/ron/mast.png';
+// import mastVideo from '../images/projects/ron/mast.mp4';
 
-function YolactPage({ data, path }) {
+function RONPage({ data, path }) {
   let blog, home, shop, shopSingleOne, shopSingleTwo;
 
   data.allFile.edges.forEach(image => {
@@ -36,14 +36,20 @@ function YolactPage({ data, path }) {
 
   return (
     <Project
-    title="YOLACT Video"
+    title="RON"
     image={mastImage}
-      video={mastVideo}
       pathname={path}
     >
-      <Content header="Detect bounding boxes and masks in videostream">
+      <Content header="Reduced-Order Modeling of Deep Neural Networks">
         <p>
-          Current project
+        We introduce a new method for speeding up the inference of deep neural networks. 
+It is somewhat inspired by the reduced-order modeling techniques for dynamical systems.
+The cornerstone of the proposed method is the maximum volume algorithm.
+We demonstrate efficiency on neural networks pre-trained on different datasets. 
+We show that in many practical cases it is possible to replace convolutional layers with much smaller fully-connected layers with a relatively small drop in accuracy.
+Check out <a href="https://arxiv.org/abs/1910.06995" target="_blank" rel="noopener noreferrer">Paper</a> and 
+        <a href="https://github.com/Daulbaev/ReducedOrderNet" target="_blank" rel="noopener noreferrer"> Code</a>.
+
         </p>
       </Content>
 
@@ -51,18 +57,18 @@ function YolactPage({ data, path }) {
   );
 }
 
-YolactPage.propTypes = {
+RONPage.propTypes = {
   data: PropTypes.object.isRequired,
   path: PropTypes.string.isRequired,
 };
 
-export default YolactPage;
+export default RONPage;
 
 export const projectQuery = graphql`
-  query YolactQuery {
+  query RONQuery {
     allFile(filter: {
         extension: { regex: "/(jpg)/" }
-        relativeDirectory: {eq: "projects/yolact-video"}
+        relativeDirectory: {eq: "projects/ron"}
     }) {
       edges {
         node {

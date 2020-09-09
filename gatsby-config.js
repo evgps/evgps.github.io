@@ -43,7 +43,12 @@ module.exports = {
         image: '/yolact-link.png',
         video: '/yolact-link.mp4',
       },
-
+      {
+        title: 'RON',
+        description: 'Reduced-Order Modeling of Deep Neural Networks',
+        image: '/ron-link.png',
+        // video: '/yolact-link.mp4',
+      },
     ],
   },
   plugins: [
