@@ -6,7 +6,7 @@ import Browser from '../components/Browser';
 import Content from '../components/Content';
 
 import mastImage from '../images/projects/latency-modeling/mast.png';
-import mastVideo from '../images/projects/latency-modeling/mast.mp4';
+// import mastVideo from '../images/projects/latency-modeling/mast.mp4';
 
 function LatencyPage({ data, path }) {
   let blog, home, shop, shopSingleOne, shopSingleTwo;
@@ -38,21 +38,16 @@ function LatencyPage({ data, path }) {
     <Project
     title="Latency Modeling"
     image={mastImage}
-      video={mastVideo}
+      // video={mastVideo}
       pathname={path}
     >
-      <Content header="Notebooks and planners">
+      <Content header="Uncompleted">
         <p>
-          Kate Matsudaira's product line of notebooks and planners needed somewhere to grow after her successful
-          Kickstart campaigns. She needed an e-commerce website to sell products  year-round, so a clean and minimal
-          storefront was built on WordPress and WooCommerce. Development focused on components that could be reused as
-          the brand continued to grow.
+          Predict how fast neural network will be on target mobile cell (eq. Kirin 970)
         </p>
         <p>
-          The Ink+Volt website has received recognition from <a
-          href="https://www.cssdesignawards.com/sites/ink-volt/29013/" target="_blank" rel="noopener noreferrer">CSS
-          Design Awards</a> and <a href="https://www.thebestdesigns.com/designs/ink-volt" target="_blank"
-          rel="noopener noreferrer">The Best Designs</a>.
+          Currently NasBench-101 transfer to Keras done: <a href="https://github.com/evgps/nasbench_keras" target="_blank" rel="noopener noreferrer">Code</a>
+       
         </p>
       </Content>
 

@@ -6,7 +6,7 @@ import Browser from '../components/Browser';
 import Content from '../components/Content';
 
 import mastImage from '../images/projects/musco/mast.png';
-import mastVideo from '../images/projects/musco/mast.mp4';
+// import mastVideo from '../images/projects/musco/mast.mp4';
 
 function MUSCOPage({ data, path }) {
   let blog, home, shop, shopSingleOne, shopSingleTwo, favicon;
@@ -41,19 +41,16 @@ function MUSCOPage({ data, path }) {
     <Project
       title="MUSCO"
       image={mastImage}
-      video={mastVideo}
+      // video={mastVideo}
       pathname={path}
     >
       <Content header="MUSCO: MUlti-Stage COmpression of neural networks">
         <p>
         It demonstrates how a neural network with convolutional and fully connected layers can be compressed using iterative tensor decomposition of weight tensors.
+        Check out <a href="http://openaccess.thecvf.com/content_ICCVW_2019/html/LPCV/Gusak_Automated_Multi-Stage_Compression_of_Neural_Networks_ICCVW_2019_paper.html" target="_blank" rel="noopener noreferrer">Paper on ICCV 2019 workshop</a> and 
+        <a href="https://github.com/musco-ai/musco-pytorch" target="_blank" rel="noopener noreferrer"> Code</a>.
         </p>
-        <p>
-          The Ink+Volt website has received recognition from <a
-          href="http://openaccess.thecvf.com/content_ICCVW_2019/html/LPCV/Gusak_Automated_Multi-Stage_Compression_of_Neural_Networks_ICCVW_2019_paper.html" 
-          target="_blank" rel="noopener noreferrer">Paper</a> and <a href="https://github.com/musco-ai/musco-pytorch" target="_blank"
-          rel="noopener noreferrer">Code</a>.
-        </p>
+    
       </Content>
 
     </Project>

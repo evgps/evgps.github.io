@@ -43,7 +43,7 @@ function YolactPage({ data, path }) {
     >
       <Content header="Detect bounding boxes and masks in videostream">
         <p>
-          TO DO
+          Current project
         </p>
       </Content>
 

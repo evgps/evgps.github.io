@@ -41,11 +41,9 @@ function RLTradePage({ data, path }) {
       video={mastVideo}
       pathname={path}
     >
-      <Content header="{Github}">
+      <Content header="Trading with recurrent actor-critic reinforcement learning.">
         <p>
-        Trading with recurrent actor-critic reinforcement learning.
-
-        <a href="https://arxiv.org/abs/2002.11523" target="_blank" rel="noopener noreferrer">Paper</a> and <a href="https://github.com/evgps/a3c_trading" target="_blank"
+              <a href="https://arxiv.org/abs/2002.11523" target="_blank" rel="noopener noreferrer">Paper</a> and <a href="https://github.com/evgps/a3c_trading" target="_blank"
           rel="noopener noreferrer">Code</a>.
           Details will be on that page soon.
         </p>

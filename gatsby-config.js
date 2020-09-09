@@ -22,8 +22,8 @@ module.exports = {
       {
         title: 'Latency Modeling',
         description: 'Predict latency of neural network on end device',
-        image: '/latency-link.png',
-        video: '/latency-link.mp4',
+        image: '/latency-modeling-link.png',
+        // video: '/latency-link.mp4',
       },
       {
         title: 'MUSCO',
